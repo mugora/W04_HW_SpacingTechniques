@@ -63,28 +63,29 @@ a {
   color: black;
 }
 .content .box {
-  width: auto;
+  width: 550px;
   height: 300px;
   border-radius: 8px;
   background-color: #aaabfd;
   color: black;
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
 }
 .content .box h1,
 .content .box h3 {
   align-items: flex-end;
 }
-.content .box .imgBox {
+.content .imgBox {
   border: 3px white solid;
   border-radius: 10px;
-  width: auto;
+  width: 90%;
   height: 600px;
   justify-content: space-evenly;
 }
-.content .box .imgBox img {
+.content .imgBox img {
   height: 600px;
 }
 footer {
